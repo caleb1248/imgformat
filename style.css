@@ -1,0 +1,11 @@
+.grid {
+  display: inline-grid;
+  grid-template-columns: repeat(8, 20px);
+  border: 1px solid black;
+  overflow-wrap: normal;
+}
+
+.grid > div {
+  width: 20px;
+  height: 20px;
+}
